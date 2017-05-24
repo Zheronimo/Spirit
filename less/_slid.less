@@ -1,0 +1,42 @@
+/* ---SLID START */
+.slid {
+	height: 790px;
+	padding-top: 300px;
+	color: #999999;
+	background-color: @color-black_bg;
+	.container-fluid {
+		text-align: center;
+		.slid-containt__title {
+			font-size: 44px;
+			font-family: "sanslight";
+			margin-top: 0;
+			text-transform: uppercase;
+			span {
+				font-family: "sansbold";
+				color: #fcac45;
+			}
+		}
+		.slid-containt__descr {
+			font-size: 20px;
+			margin-bottom: 280px;
+		}
+		.slid-btn {
+			position: relative;
+			cursor: pointer;
+			margin: 0 auto;
+			width: 50px;
+			height: 50px;
+			border: 1px solid #b2b2b2;
+			border-radius: 50%;
+			&:hover {
+				border-color: #fcac45; 
+			}
+			.slid-btn__arrow{
+				position: absolute;
+				top: 25%;
+				right: 37%;
+			}
+		}
+	}
+}
+/* ---SLID END */
